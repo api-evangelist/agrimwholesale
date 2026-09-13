@@ -1,0 +1,15 @@
+generated: '2026-09-13'
+method: searched
+source: >-
+  Registry searches against registry.npmjs.org, pypi.org, rubygems.org, crates.io,
+  api.nuget.org, search.maven.org and proxy.golang.org, plus a GitHub organization
+  lookup for agrim, agrim-wholesale, agrimwholesale, agrim-india and agrim-app.
+package_count: 0
+packages: []
+note: >-
+  No first-party client library, SDK or CLI exists for Agrim Wholesale on any public
+  package registry, and the company has no GitHub organization (all five candidate org
+  names returned 404 from api.github.com). The npm text search for "agrim" returns only
+  unrelated packages published by individuals whose given name is Agrim. This is a
+  measured zero, not an unchecked field; no Packages or SDKs pointer is wired into
+  apis.yml because the company ships no SDK.

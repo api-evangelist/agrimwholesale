@@ -64,5 +64,16 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Agrimwholesale is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/agrimwholesale
+Agrim Wholesale Private Limited (branded AGRIM) is a Gurugram, India based business-to-business
+e-commerce marketplace for agricultural inputs, connecting agri-input manufacturers and wholesale
+suppliers with small rural retailers. Founded in 2020 by Avi Jain and Mukul Garg, the platform lists
+more than 30,000 seed, crop-protection, fertiliser and farm-equipment products from over 1,200
+manufacturers and fulfils orders across a pan-India network.
+
+The marketplace is delivered to retailers and sellers as Android applications and a marketing
+website. As of 2026-09-13 the company publishes **no public developer program, API reference, SDK,
+webhook catalog, or machine-readable API contract** — see `x-coverage` in `apis.yml` for the probe
+evidence behind that finding.
+
+- Website: https://agrim.app/
+- Secondary-market listing this profile was surfaced from: https://equityzen.com/company/agrimwholesale

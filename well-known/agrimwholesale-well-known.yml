@@ -1,0 +1,52 @@
+generated: '2026-09-13'
+method: probed
+source: live HTTPS probes of the named /.well-known/ path list on every host this record knows
+note: >-
+  Every named path returned 404 on both hosts, so NO WellKnown or SecurityTxt pointer is
+  wired into apis.yml — this file records a measured absence, not a served surface. The two
+  hosts probed are the registrable domain (agrim.app, the Next.js marketing site on Vercel)
+  and api.agrim.app (the company's AWS ALB backend, which answers "Hello, Welcome to AGRIM"
+  on / and 404s every discovery path). www.agrim.app does not resolve, so it was not probed.
+hosts:
+- host: agrim.app
+  role: website
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/aauth-resource.json
+    status: 404
+- host: api.agrim.app
+  role: api-backend
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/aauth-resource.json
+    status: 404
